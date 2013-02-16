@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="UTF-8">
 		<title></title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript">
+			
+		</script>
 	</head>
 	<body>
 		<?php
 			$now=date('Y-m-d H:i:s');
+			echo $now;
 		?>
 	</body>
 </html>
